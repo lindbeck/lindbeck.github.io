@@ -18,6 +18,7 @@ body{
     width: 33%;
     background-color: #433c4b;
     float: left;
+    color: #f8f8f8;
 }
 
 .hidden{
@@ -38,7 +39,6 @@ body{
     margin: 0 auto;
     text-align: center;
     position: relative;
-    color: #f8f8f8;
     font-size: 22pt;
 }
 
@@ -46,7 +46,6 @@ body{
     margin: 0 auto;
     text-align: center;
     position: relative;
-    color: #f8f8f8;
     font-size: 11pt;
     font-weight: 500;
     margin-bottom: 20px;
@@ -56,7 +55,6 @@ body{
     width: 80%;
     position: relative;
     margin: 0 auto;
-    color: #f8f8f8;
 }
 
 .sidebar .sidebaritem {
@@ -81,13 +79,11 @@ body{
 }
 
 .sidebar .content p {
-    color: #f8f8f8;
     font-size: 11pt;
     margin-top: 6px;
 }
 
 .sidebar .content span {
-    color: #f8f8f8;
     font-size: 11pt;
 }
 
@@ -113,7 +109,6 @@ body{
   
 .sidebar .content a{
     color: #f8f8f8;
-    fill: #f8f8f8;
     text-decoration: none;
 }
 
@@ -139,6 +134,9 @@ body{
 .sidebar #certifications h3 {
     font-size: 12pt;
     text-decoration: underline;
+}
+.sidebar #certifications h3:hover {
+    color: #b8b8b8;
 }
 
 .sidebar #certifications h4 {
