@@ -142,6 +142,7 @@ body{
 }
 
 .sidebar #certifications h4 {
+    margin-top: 0px;
     font-size: 11pt;
 }
 
