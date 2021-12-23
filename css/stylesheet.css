@@ -1,0 +1,219 @@
+body{
+    background: #c7bac9; 
+    font-family: "Ubuntu","Calibri light","Arial",sans-serif;
+}
+
+.A4{
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5mm;
+    box-shadow: 0 0 5mm rgba(0, 0, 0, 0.5);
+    width: 210mm;
+    height: 297mm;
+}
+
+.sidebar {
+    height: 100%;
+    width: 33%;
+    background-color: #433c4b;
+    float: left;
+}
+
+.hidden{
+    display: none;
+}
+
+#headshot {
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    top: 30px;
+    box-shadow: 0 0 2mm rgba(0, 0, 0, 0.5);
+}
+
+.sidebar #nameandtitle h1 {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    color: #f8f8f8;
+    font-size: 22pt;
+}
+
+.sidebar #nameandtitle h2 {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    color: #f8f8f8;
+    font-size: 11pt;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.sidebar .content {
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    color: #f8f8f8;
+}
+
+.sidebar .sidebaritem {
+    margin-top: 10px;
+}
+
+.sidebar .content .line{
+    width: 100%;
+    display: block;
+    margin-top: 3px;
+    height: 1px;
+    background: linear-gradient(to left, #f8f8f8 85%, #a26ca7 15%);
+}
+
+.sidebar .content h1 {
+    color: #a26ca7;
+    font-weight: normal;
+    position: relative;
+    margin-bottom: 0;
+    font-size: 18pt;
+    margin-top: 20px;
+}
+
+.sidebar .content p {
+    color: #f8f8f8;
+    font-size: 11pt;
+    margin-top: 6px;
+}
+
+.sidebar .content span {
+    color: #f8f8f8;
+    font-size: 11pt;
+}
+
+.sidebar .content svg {
+    width: 22px;
+    height: 22px;
+}
+
+.sidebar .content .contactinfo{
+    margin-bottom: 6px;
+    display: inline-block;
+}
+
+.sidebar .content .contactinfo svg{
+    width: 20px;
+    height: 20px;
+}
+
+.sidebar .content .contactinfotext{
+    vertical-align: super;
+    margin-left: 5px;
+}
+  
+.sidebar .content a{
+    color: #f8f8f8;
+    fill: #f8f8f8;
+    text-decoration: none;
+}
+
+.sidebar .itemdivider{
+    margin-top: 6px;
+    margin-bottom: 3px;
+}
+
+.sidebar .itemdivider .itemdividerline{
+    width: 30%;
+    display: block;
+    height: 1px;
+    background-color: #f8f8f8;
+    margin-left: 7px;
+    opacity: 0.5;
+}
+
+.sidebar .skillsitem{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.sidebar #certifications h2 {
+    font-size: 12pt;
+    text-decoration: underline;
+}
+
+.sidebar #certifications h3 {
+    font-size: 11pt;
+}
+
+.sidebar #certifications #certcontainer {
+    text-align: center;
+}
+
+.sidebar #languages .level{
+    color: #b8b8b8;
+}
+
+.main {
+    height: 100%;
+    width: 67%;
+    float: right;
+    color: #433c4b;
+}
+
+.main .content {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main .content .mainline{
+    display: block;
+    height: 1px;
+    background-color: #433c4b;
+    margin-top: 3px;
+    width: 100%;
+}
+
+.main .content h2 {
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.main .content h3 {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-size: 14pt;
+}
+
+.main .content li:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.tenure{
+    color:#7e7e7e;
+    font-size: 11pt;
+}
+
+.main .content .mainitem {
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+}
+
+.mainitem p{
+    margin-top: 8px;
+}
+
+@media print{
+    body, .A4{
+        -webkit-print-color-adjust: exact !important;
+        color-adjust: exact !important;
+        box-shadow: none;
+        }
+    body{
+        background: none;
+    }
+    #headshot{
+        box-shadow: 0 0 0mm rgba(0, 0, 0, 0.5);
+    }
+}
