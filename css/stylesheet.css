@@ -87,11 +87,6 @@ body{
     font-size: 11pt;
 }
 
-.sidebar .content svg {
-    width: 22px;
-    height: 22px;
-}
-
 .sidebar .content .contactinfo{
     margin-bottom: 6px;
     display: inline-block;
