@@ -26,6 +26,8 @@ body{
 }
 
 #headshot {
+    height: auto;
+    width: 200px;
     border-radius: 50%;
     display: block;
     position: relative;
