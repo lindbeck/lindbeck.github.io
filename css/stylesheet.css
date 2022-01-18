@@ -167,18 +167,14 @@ body{
     height: 1px;
     background-color: #433c4b;
     margin-top: 3px;
+    margin-bottom: 0px;
     width: 100%;
 }
 
 .main .content h2 {
     font-weight: normal;
     margin-top: 20px;
-}
-
-.main .content h3 {
-    margin-top: 15px;
     margin-bottom: 0px;
-    font-size: 14pt;
 }
 
 .main .content li:not(:last-child) {
@@ -194,6 +190,12 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 97%;
+}
+
+.mainitem h3 {
+    margin-top: 18px;
+    margin-bottom: 0px;
+    font-size: 14pt;
 }
 
 .mainitem p{
