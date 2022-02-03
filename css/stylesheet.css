@@ -1,217 +1,188 @@
-body{
-    background: #c7bac9; 
+body {
+    background: #f8f8f8; 
     font-family: "Ubuntu","Calibri light","Arial",sans-serif;
+    font-size: 1rem;
+    color: #433850;
 }
 
-.A4{
-    background: #fff;
-    display: block;
+#container {
+    width: 800px;
     margin: 0 auto;
-    margin-bottom: 5mm;
-    box-shadow: 0 0 5mm rgba(0, 0, 0, 0.5);
-    width: 210mm;
-    height: 297mm;
 }
 
-.sidebar {
-    height: 100%;
-    width: 33%;
-    background-color: #433c4b;
-    float: left;
-    color: #f8f8f8;
+a {
+    color: #433850;
+    text-decoration: none;
+
 }
 
-.hidden{
+h1 {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.4em;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+.hidden {
     display: none;
+}
+
+#joel {
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#joel h1 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 2em;
 }
 
 #headshot {
     height: auto;
-    width: 200px;
+    width: 180px;
     border-radius: 50%;
     display: block;
     position: relative;
     margin: 0 auto;
-    margin-bottom: 40px;
-    top: 30px;
-    box-shadow: 0 0 2mm rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 8px 15px -4px rgb(0, 0, 0, 0.15), 3px 8px 25px rgb(0, 0, 0, 0.04);
 }
 
-.sidebar #nameandtitle h1 {
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    font-size: 22pt;
-}
-
-.sidebar #nameandtitle h2 {
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    font-size: 11pt;
-    font-weight: 500;
-    margin-bottom: 20px;
-}
-
-.sidebar .content {
-    width: 80%;
-    position: relative;
-    margin: 0 auto;
-}
-
-.sidebar .sidebaritem {
-    margin-top: 10px;
-}
-
-.sidebar .content .line{
+#aboutcontainer {
+    box-sizing: border-box;
     width: 100%;
-    display: block;
-    margin-top: 3px;
-    height: 1px;
-    background: linear-gradient(to left, #f8f8f8 85%, #a26ca7 15%);
-}
-
-.sidebar .content h2 {
-    color: #a26ca7;
-    font-weight: normal;
-    position: relative;
-    margin-bottom: 0;
-    font-size: 18pt;
+    margin: 0 auto;
     margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: inherit;
+    box-shadow: 0 10px 15px -4px rgb(0, 0, 0, 0.15), 0 10px 25px rgb(0, 0, 0, 0.04);
+    border-radius: 25px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.sidebar .content p {
-    font-size: 11pt;
-    margin-top: 6px;
+#about {
+    width: 65%;
 }
 
-.sidebar .content span {
-    font-size: 11pt;
+#contact {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-.sidebar .content .contactinfo{
-    margin-bottom: 6px;
-    display: inline-block;
+#contact svg {
+    width: 25px;
+    height: 25px;
 }
 
-.sidebar .content .contactinfo svg{
-    width: 20px;
-    height: 20px;
-}
-
-.sidebar .content .contactinfotext{
+.contactinfotext {
     vertical-align: super;
     margin-left: 5px;
 }
-  
-.sidebar .content a{
-    color: #f8f8f8;
-    text-decoration: none;
+
+#main h1 {
+    text-align: center;
+    margin-bottom: 12px;
 }
 
-.sidebar .itemdivider{
-    margin-top: 6px;
-    margin-bottom: 3px;
+#projects h1 {
+    margin-top: 30px;
 }
 
-.sidebar .itemdivider .itemdividerline{
-    width: 30%;
-    display: block;
-    height: 1px;
-    background-color: #f8f8f8;
-    margin-left: 7px;
-    opacity: 0.5;
-}
-
-.sidebar .skillsitem{
-    margin-top: 5px;
+#main li:not(:last-child) {
     margin-bottom: 5px;
 }
 
-.sidebar #certifications h3 {
-    font-size: 12pt;
-    text-decoration: underline;
-}
-.sidebar #certifications h3:hover {
-    color: #b8b8b8;
-}
-
-.sidebar #certifications h4 {
-    margin-top: 0px;
-    font-size: 11pt;
-}
-
-.sidebar #certifications #certcontainer {
-    text-align: center;
-}
-
-.sidebar #languages .level{
-    color: #b8b8b8;
-}
-
-.main {
-    height: 100%;
-    width: 67%;
-    float: right;
-    color: #433c4b;
-}
-
-.main .content {
-    width: 90%;
-    margin: 0 auto;
-    position: relative;
-}
-
-.main .content .mainline{
-    display: block;
-    height: 1px;
-    background-color: #433c4b;
-    margin-top: 3px;
-    margin-bottom: 0px;
-    width: 100%;
-}
-
-.main .content h2 {
-    font-weight: normal;
+.workitem h2:not(:first-child) {
     margin-top: 20px;
     margin-bottom: 0px;
 }
 
-.main .content li:not(:last-child) {
-    margin-bottom: 4px;
+#main a {
+    text-decoration: underline;
 }
 
-.tenure{
+.tenure {
     color:#7e7e7e;
-    font-size: 11pt;
+    font-size: 0.9em;
+    font-style: italic;
 }
 
-.main .content .mainitem {
-    margin-left: auto;
-    margin-right: auto;
-    width: 97%;
+#sidebar {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 38%;
+    box-sizing: border-box;
+    background-color: inherit;
+    box-shadow: 0 5px 10px -4px rgb(0, 0, 0, 0.15), 0 5px 15px rgb(0, 0, 0, 0.04);
+    border-radius: 25px;
+    /*border-left: 1px solid;
+    border-right: 1px solid;*/
+    border-color: rgb(67, 56, 80, 0.5);
+    padding: 40px;
 }
 
-.mainitem h3 {
-    margin-top: 18px;
-    margin-bottom: 0px;
-    font-size: 14pt;
+#sidebar h2 {
+    text-align: center;
+    margin-bottom: 8px;
 }
 
-.mainitem p{
-    margin-top: 8px;
+#sidebar h2:not(:first-child) {
+    margin-top: 20px;
 }
 
-@media print{
-    body, .A4{
+#sidebar .itemdivider{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    width: 30%;
+    display: block;
+    height: 1px;
+    background-color: #433850;
+    margin-left: 7px;
+}
+
+#certcontainer {
+    text-align: center;
+}
+#footer {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 0.8em;
+    color: rgb(67, 56, 80, 0.5);
+}
+
+@media print {
+    body, #headshot {
         -webkit-print-color-adjust: exact !important;
         color-adjust: exact !important;
         box-shadow: none;
         }
-    body{
+    body {
         background: none;
     }
-    #headshot{
-        box-shadow: 0 0 0mm rgba(0, 0, 0, 0.5);
+
+    #aboutcontainer, #sidebar {
+        box-shadow: none;
+        border-left: 1px solid;
+        border-right: 1px solid;
+        border-color: rgb(67, 56, 80, 0.5);
     }
 }
