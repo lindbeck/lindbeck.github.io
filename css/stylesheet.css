@@ -82,7 +82,11 @@ h4 {
     width: 28%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.contactinfo:not(:first-child) {
+    margin-top: 10px;
 }
 
 #contact svg {
