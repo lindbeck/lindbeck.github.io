@@ -185,7 +185,9 @@ p {
 }
 
 #certcontainer {
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 #footer {
     height: 40px;
