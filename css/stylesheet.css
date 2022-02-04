@@ -45,30 +45,34 @@ p {
     display: none;
 }
 
-#joel {
+header {
     margin: 0 auto;
     margin-top: 50px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
-#joel h1 {
-    margin-top: 20px;
+header h1 {
+    margin-top: 30px;
     margin-bottom: 5px;
     font-size: 2em;
 }
 
-#joel h2 {
+header h2 {
     margin: 0;
 }
 
-#headshot {
+header #headshot {
     height: auto;
     width: 180px;
     border-radius: 50%;
-    display: block;
-    position: relative;
-    margin: 0 auto;
     box-shadow: 3px 8px 15px -4px rgb(0, 0, 0, 0.15), 3px 8px 25px rgb(0, 0, 0, 0.04);
+}
+
+header #nameandtitle {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
 }
 
 #aboutcontainer {
