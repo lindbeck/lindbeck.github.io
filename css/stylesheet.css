@@ -225,8 +225,4 @@ header #nameandtitle {
         border-right: 1px solid;
         border-color: rgb(67, 56, 80, 0.5);
     }
-
-    #certcontainer img {
-        width: 100px;
-    }
 }
