@@ -195,7 +195,7 @@ header #nameandtitle {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-#footer {
+footer {
     height: 40px;
     display: flex;
     justify-content: center;
