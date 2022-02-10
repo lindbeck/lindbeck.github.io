@@ -202,7 +202,7 @@ footer {
     align-items: flex-end;
 }
 
-footer p{
+footer span{
     font-size: 0.8em;
     color: rgb(67, 56, 80, 0.5);
     line-height: 1em;
