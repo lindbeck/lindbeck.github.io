@@ -89,6 +89,8 @@ header #nameandtitle {
 
 #about {
     width: 65%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #contact {
@@ -110,6 +112,10 @@ header #nameandtitle {
 .contactinfotext {
     vertical-align: super;
     margin-left: 5px;
+}
+
+#contact a .contactinfotext:hover {
+    text-decoration: underline;
 }
 
 #main h1 {
