@@ -134,6 +134,7 @@ header #location .svg {
 
 .contactinfo span {
     margin-left: 10px;
+    font-size: 1.1em;
 }
 
 #contact a:hover span {
