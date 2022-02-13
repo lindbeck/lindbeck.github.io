@@ -116,6 +116,7 @@ header #nameandtitle {
 }
 
 .contactinfotext {
+    vertical-align: super;
     margin-left: 10px;
 }
 
