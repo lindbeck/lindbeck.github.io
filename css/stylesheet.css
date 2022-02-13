@@ -136,7 +136,7 @@ header #location .svg {
     margin-left: 10px;
 }
 
-#contact a:hover .contactinfotext {
+#contact a:hover span {
     text-decoration: underline;
 }
 
