@@ -15,7 +15,6 @@ body {
 a {
     color: #433850;
     text-decoration: none;
-
 }
 
 h1 {
@@ -74,7 +73,6 @@ header #nameandtitle {
 #aboutcontainer {
     box-sizing: border-box;
     margin: 0 auto;
-    margin-top: 20px;
     margin-bottom: 40px;
     background-color: inherit;
     box-shadow: 0 6px 10px -8px rgb(0, 0, 0, 0.15), 0 8px 25px -2px rgb(0, 0, 0, 0.04);
@@ -147,7 +145,7 @@ header #nameandtitle {
     margin-bottom: 3px;
 }
 
-#main a {
+#main .workitem a {
     text-decoration: underline;
 }
 
@@ -169,7 +167,7 @@ header #nameandtitle {
     border-radius: 25px;
     box-sizing: border-box;
     background-color: inherit;
-    box-shadow: 0 6px 10px -8px rgb(0, 0, 0, 0.15), 0 8px 25px -2px rgb(0, 0, 0, 0.04);    
+    box-shadow: 0 6px 10px -8px rgb(0, 0, 0, 0.15), 0 8px 25px -2px rgb(0, 0, 0, 0.04);
 }
 
 #sidebar h2 {
@@ -183,23 +181,48 @@ header #nameandtitle {
 }
 
 #sidebar h3 {
-    margin-top: 0;
     margin-bottom: 12px;
 }
 
-#sidebar h4 {
-    margin-top: 0;
-    margin-bottom: 10px;
+#sidebar .sidebaritem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 #sidebar .itemdivider{
     margin-top: 12px;
     margin-bottom: 10px;
-    width: 30%;
+    width: 35%;
     display: block;
     height: 1px;
     background-color: #433850;
-    margin-left: 7px;
+}
+
+#certprofile {
+    display: flex;
+    justify-content: center;
+}
+
+#certprofile a {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+#certprofile svg {
+    width: 40px;
+    height: 40px;
+}
+
+#certprofile span {
+    margin-left: 10px;
+    font-size: 1.4em;
+}
+
+#certprofile a:hover span {
+    text-decoration: underline;
 }
 
 #certcontainer {
@@ -207,6 +230,7 @@ header #nameandtitle {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 footer {
     height: 40px;
     display: flex;
