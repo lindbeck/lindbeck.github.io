@@ -98,7 +98,7 @@ header #nameandtitle {
     justify-content: center;
 }
 
-.contactinfo a {
+.contactinfo, .contactinfo a {
     display: flex;
     align-items: center;
     justify-content: start;
@@ -113,8 +113,7 @@ header #nameandtitle {
     height: 28px;
 }
 
-.contactinfotext {
-    vertical-align: super;
+.contactinfo span {
     margin-left: 10px;
 }
 
