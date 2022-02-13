@@ -100,6 +100,12 @@ header #nameandtitle {
     justify-content: center;
 }
 
+.contactinfo a {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
 .contactinfo:not(:first-child) {
     margin-top: 15px;
 }
@@ -110,8 +116,7 @@ header #nameandtitle {
 }
 
 .contactinfotext {
-    vertical-align: super;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 #contact a:hover .contactinfotext {
