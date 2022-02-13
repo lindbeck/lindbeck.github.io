@@ -50,7 +50,7 @@ header #headshot {
     height: 180px;
     width: 180px;
     border-radius: 50%;
-    box-shadow: 3px 8px 15px -4px rgb(0, 0, 0, 0.15), 3px 8px 25px rgb(0, 0, 0, 0.04);
+    box-shadow: 2px 8px 12px -4px rgb(0, 0, 0, 0.15), 3px 8px 25px rgb(0, 0, 0, 0.04);
 }
 
 header h1 {
