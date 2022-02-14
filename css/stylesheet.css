@@ -137,8 +137,15 @@ header #location .svg {
     font-size: 1.1em;
 }
 
-#contact a:hover span {
+#contact a:hover span, #certprofile a:hover span {
     text-decoration: underline;
+    transform: scale(1.02);
+    transition: .1s;
+}
+
+#contact a:hover .svg, #certprofile a:hover .svg {
+    transform: scale(1.04);
+    transition: .1s;
 }
 
 #main h1 {
@@ -238,10 +245,6 @@ header #location .svg {
 
 #certprofile span {
     font-size: 1.3em;
-}
-
-#certprofile a:hover span {
-    text-decoration: underline;
 }
 
 #certcontainer {
