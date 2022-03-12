@@ -253,6 +253,11 @@ header #location .svg {
     justify-content: space-evenly;
 }
 
+.languagelevel {
+    color: rgb(67, 56, 80, 0.8);
+    font-style: italic;
+}
+
 footer {
     height: 30px;
     display: flex;
