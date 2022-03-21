@@ -117,7 +117,7 @@ header #location .svg {
     justify-content: center;
 }
 
-.contactinfo, .contactinfo a {
+.contactinfo a {
     display: flex;
     align-items: center;
     justify-content: start;
@@ -137,13 +137,13 @@ header #location .svg {
     font-size: 1.1em;
 }
 
-#contact a:hover span, #certprofile a:hover span {
+#contact a:hover span, #certprofile a:hover span, #certcontainer a:hover span {
     text-decoration: underline;
     transform: scale(1.02);
     transition: .1s;
 }
 
-#contact a:hover .svg, #certprofile a:hover .svg {
+#contact a:hover .svg, #certprofile a:hover .svg, #certcontainer a:hover .svg {
     transform: scale(1.04);
     transition: .1s;
 }
@@ -217,6 +217,10 @@ header #location .svg {
     text-align: center;
 }
 
+#sidebar .sidebaritem span {
+    font-size: 1em;
+}
+
 #sidebar .itemdivider{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -229,6 +233,7 @@ header #location .svg {
 #certprofile {
     display: flex;
     justify-content: center;
+    font-size: 1.3em;
 }
 
 #certprofile a {
@@ -243,19 +248,30 @@ header #location .svg {
     margin-right: 10px;
 }
 
-#certprofile span {
-    font-size: 1.3em;
-}
-
 #certcontainer {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.certitem a {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.certitem:not(:first-child) {
+    margin-top: 15px;
 }
 
 #certcontainer .svg {
-    width: 120px;
-    height: 120px;
+    width: 43px;
+    height: 43px;
+    margin-right: 10px;
+}
+
+.certitem span {
+    text-align: left;
 }
 
 .languagelevel {
