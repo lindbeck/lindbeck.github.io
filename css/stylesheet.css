@@ -185,7 +185,7 @@ header #location .svg {
     float: right;
     margin-left: 20px;
     margin-bottom: 20px;
-    width: 38%;
+    width: 40%;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 25px;
@@ -251,6 +251,11 @@ header #location .svg {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+#certcontainer .svg {
+    width: 120px;
+    height: 120px;
 }
 
 .languagelevel {
