@@ -227,7 +227,7 @@ header #location .svg {
     width: 35%;
     display: block;
     height: 1px;
-    background-color: #433850;
+    background-color: rgb(67, 56, 80, 0.8);
 }
 
 #certprofile {
@@ -261,7 +261,7 @@ header #location .svg {
 }
 
 .certitem:not(:first-child) {
-    margin-top: 15px;
+    margin-top: 18px;
 }
 
 #certcontainer .svg {
