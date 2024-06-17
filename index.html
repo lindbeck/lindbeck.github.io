@@ -3,12 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Joel Lindbecks Webpage</title>
+    <title>Joel Lindbecks CV</title>
     <meta name="description" content="This website serves as my professional CV, showcasing my skills, experience, and qualifications.">
     <meta name="viewport" content="width=device-width">
 
     <link rel="stylesheet" href="css/stylesheet.css">
-    <link rel="stylesheet" href="css/page.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
@@ -21,9 +20,291 @@
 
 <body>
 
-    <page size="A4">
-
+    <page size="A4" margin="thin">
         
+        <header>
+            <img id="headshot" src="image/Joel.jpg">
+            <div id="headertext ">
+                <h1>Joel Lindbeck</h1>
+                <h2>Cloud Infrastructure Specialist</h2>
+            </div>
+            <div id="printbutton" onClick="window.print()"><img class="svg" src="svg/print.svg"><span>Print</span></div>
+        </header>
+
+        <div class="container" id="firstpage">
+            <section class="sidebar">
+                <section id="Contact">
+                    <h2>My information<span class="line"></span></h2>
+                    <div class="infoitem">
+                        <a href="mailto:joel.lindbeck@outlook.com">
+                            <img class="svg" src="svg/email.svg">
+                            <span>joel.lindbeck@outlook.com</span>
+                        </a>
+                    </div>
+                    <div class="infoitem">
+                        <a href="callto:+46704279719">
+                            <img class="svg" src="svg/phone.svg">
+                            <span>070 427 97 19</span>
+                        </a>
+                    </div>
+                    <div class="infoitem">
+                        <a href="https://www.linkedin.com/in/joellindbeck/">
+                            <img class="svg" src="svg/linkedin.svg">
+                            <span>/in/joellindbeck</span>
+                        </a>
+                    </div>
+                    <div class="infoitem" id="website">
+                        <a href="https://joellindbeck.se">
+                            <img class="svg" src="svg/earth.svg">
+                            <span>joellindbeck.se</span>
+                        </a>
+                    </div>
+                    <div class="infoitem" id="location">
+                        <img class="svg" src="svg/location.svg">
+                        <span>Täby, Sweden</span>
+                    </div>
+                    
+                </section>
+
+                <section id="skills">
+                    <h2>Career skills<span class="line"></span></h2>
+                    <div class="sidebaritem">
+                        <div>
+                            <span>Azure Enterprise-scale architecture​</span>
+                        </div>
+                        <div class="itemdivider"></div>
+                        <div>
+                            <span>Technical leadership</span>
+                        </div>
+                        <div class="itemdivider"></div>
+                        <div>
+                            <span>Cloud Security</span>
+                        </div>
+                        <div class="itemdivider"></div>
+                        <div>
+                            <span>Cloud Identity and Access Management</span>
+                        </div>
+                        <div class="itemdivider"></div>
+                        <div>
+                            <span>Stakeholder Management</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="languages">
+                    <h2>Languages<span class="line"></span></h2>
+                    <div class="sidebaritem">
+                        <div>
+                            <span>Swedish </span><span class="language">(Native)</span>
+                        </div>
+                        <div class="itemdivider"></div>
+                        <div>
+                            <span>English </span><span class="language">(Fluent)</span>
+                        </div>
+                        
+                    </div>
+                </section>
+
+                <section id="other">
+                    <h2>Misc. information<span class="line"></span></h2>
+                    <div class="sidebaritem">
+                        <div>
+                            <span>Category B drivers license</span>
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+
+            <section class="main">
+                <section id="employments">
+                    <h2>Employments<span class="line"></span></h2>
+
+                    <div class="workitem">
+                        <h3>Consultant, Cloud Engineering @ Avanade</h3>
+                        <span>August 2019 - Present</span>
+                        <p>
+                            Technical consultant specialized in delivering Azure infrastructure and security offerings, with experience in various areas of the Microsoft Cloud Platform. For details about my work experience as a consultant, see <a href="#projects">Selected projects</a> below.
+                        </p>
+                        
+                        <p>
+                            In addition to my consulting role, I actively contribute to several initiatives that support company culture, including:
+                        </p>
+                        
+                        <ul>
+                            <li>Facilitating and delivering technical and non-technical training sessions.</li>
+                            <li>Identifying improvement areas and implementing changes in the physical, organizational, and social work environment.</li>
+                            <li>Organizing social events such as After-Works, company-wide parties, and sports activities.</li>
+                            <li>Promoting awareness of inclusion and diversity.</li>
+                        </ul>
+                        
+                    </div>
+
+                    <div class="workitem">
+                        <h3>IT Operations @ Max Matthiessen</h3>
+                        <span>February 2018 - August 2019</span>
+                        <p>
+                            Owner of the Mobile Device Management environment, led the implementation projects of Intune and FileWave, and was responsible for the management and security of devices using these tools.
+                            As part of IT-Operations, the role also included general administration and troubleshooting of various features and services in Entra ID, Active Directory, on-premises infrastructure, and Microsoft 365.
+                        </p>
+                    </div>
+
+                </section>
+            </section>
+        </div>
+
+    </page>
+
+    <page size="A4" margin="thin">
+        <div class="container">
+            <section class="sidebar">
+                <section id="certifications">
+                    <h2>Certifications<span class="line"></span></h2>
+                    <div class="certitem">
+                        <a href="https://learn.microsoft.com/api/credentials/share/en-us/joellindbeck/DFAB92957D20C5D8">
+                            <img class="svg" src="svg/MSExpert.svg">
+                            <span>Microsoft Certified: Azure Solutions Architect Expert</span>
+                        </a>
+                    </div>
+
+                    <div class="certitem">
+                        <a href="https://learn.microsoft.com/api/credentials/share/en-us/joellindbeck/B9743A7C3AA82C6A">
+                            <img class="svg" src="svg/MSExpert.svg">
+                            <span>Microsoft Certified: Cybersecurity Architect Expert</span>
+                        </a>
+                    </div>
+
+                    <div class="certitem">
+                        <a href="https://learn.microsoft.com/api/credentials/share/en-us/joellindbeck/C8FC48F552302A8">
+                            <img class="svg" src="svg/MSExpert.svg">
+                            <span>Microsoft 365 Certified: Administrator Expert</span>
+                        </a>
+                    </div>
+
+                    <div class="certitem">
+                        <a href="https://learn.microsoft.com/api/credentials/share/en-us/joellindbeck/835184EF9AD0EFF1">
+                            <img class="svg" src="svg/MSAssociate.svg">
+                            <span>Microsoft Certified: Azure Administrator Associate</span>
+                        </a>
+                    </div>
+
+                    <div class="certitem">
+                        <a href="https://learn.microsoft.com/en-gb/users/joellindbeck/credentials/1b86c497f642360f">
+                            <img class="svg" src="svg/MSAssociate.svg">
+                            <span>Microsoft Certified: Azure Security Engineer Associate</span>
+                        </a>
+                    </div>
+
+                    <div class="certitem">
+                        <a href="https://learn.microsoft.com/en-us/users/joellindbeck/credentials/b9dfd6274c84aa4">
+                            <img class="svg" src="svg/MSAssociate.svg">
+                            <span>Microsoft Certified: Identity and Access Administrator Associate</span>
+                        </a>
+                    </div>
+
+                    <div class="certitem">
+                        <a href="https://learn.microsoft.com/api/credentials/share/en-us/joellindbeck/C5D4AC9CE3027A90">
+                            <img class="svg" src="svg/MSAssociate.svg">
+                            <span>Microsoft Certified: Information Protection and Compliance Administrator Associate</span>
+                        </a>
+                    </div>
+
+                    <div class="certitem">
+                        <a href="https://learn.microsoft.com/en-us/users/joellindbeck/credentials/b730b935a31d4cd4">
+                            <img class="svg" src="svg/MSAssociate.svg">
+                            <span>Microsoft Certified: Security Operations Analyst Associate</span>
+                        </a>
+                    </div>
+                    <div class="certitem">
+                        <a href="https://learn.microsoft.com/api/credentials/share/en-gb/joellindbeck/7197E617E6A19EA5">
+                            <img class="svg" src="svg/MSAssociate.svg">
+                            <span>Microsoft 365 Certified: Endpoint Administrator Associate</span>
+                        </a>
+                    </div>
+                    <div class="certitem">
+                        <a href="https://learn.microsoft.com/api/credentials/share/en-gb/joellindbeck/F8A0B5D31C102551">
+                            <img class="svg" src="svg/MSAssociate.svg">
+                            <span>Microsoft 365 Certified: Teams Administrator Associate</span>
+                        </a>
+                    </div>
+                </section>
+            </section>
+
+            <section class="main">
+
+                <section id="employmentscont">
+                    <h2>Employments cont'd<span class="line"></span></h2>
+                    <div class="workitem">
+                        <h3>Senior Support Technician @ Teleperformance</h3>
+                        <span>July 2015 - February 2018</span>
+                        <p>
+                            Customer-facing second line technical support for most Apple products and services. Also delivered training sessions, individual coaching, and quality assurance for our department of over 150 employees.
+                        </p>
+                    </div>
+                </section>
+                
+                <section id="projects">
+                    <h2>Selected projects<span class="line"></span></h2>
+
+                    <div class="workitem">
+                        <h3>Azure Lift & Shift @ Swedish Bank</h3>
+                        <span>2021 - Present @ Avanade</span>
+                        <p>
+                            Over the multi-year Azure Lift & Shift project, I balanced technical and leadership responsibilities. Key contributions included:
+                        </p>
+                        <ul>
+                            <li>Coordinating work across multiple workstreams and domains, maintaining technical compatibility and adherence to client processes.</li>
+                            <li>Overseeing project requirements, addressing roadblocks, and ensuring successful delivery.</li>
+                            <li>Designing a cloud IAM strategy and implementing governance using Azure Policy.</li>
+                            <li>Authoring comprehensive high- and low-level design documentation.</li>
+                        </ul>
+                        <p>
+                            Additionally, I provided leadership by mentoring colleagues, managing resource needs, and facilitating challenging client conversations. I managed a team of over 30 professionals from Avanade, Accenture, and the client. I was entrusted with guiding the design and approach to access management within the client's Azure environment and played a significant role in the technical design, security, and governance of new Azure services and workloads.
+                        </p>
+                    </div>
+
+                </section>
+            </section>
+        </div>
+
+    </page>
+
+    <page size="A4" margin="thin">
+                
+        <div class="container">
+
+            <section class="main nosidebar">
+                
+                <section id="projectscontinued">
+                    <h2>Selected projects cont'd<span class="line"></span></h2>
+
+                    <div class="workitem">
+                        <h3>Power Apps Canvas App Development @ Vehicle manufacturer</h3>
+                        <span>2021 @ Avanade</span>
+                        <p>
+                            During the development of a Power Apps Canvas App for creating and managing shipping manifests, my responsibilities included coordinating with stakeholders to gather and analyze requirements, and overseeing development to ensure the application met the security and operational requirements set by the client.
+                        </p>
+                    </div>
+
+                    <div class="workitem">
+                        <h3>Microsoft 365 Pilot @ Paper manufacturer</h3>
+                        <span>2020 @ Avanade</span>
+                        <p>
+                            I led the initial design, deployment, and configuration of Intune, Microsoft Information Protection, and Microsoft Teams as part of a Microsoft 365 Enterprise pilot deployment.
+                        </p>
+                    </div>
+
+                    <div class="workitem">
+                        <h3>Microsoft 365 Pilot @ Paper manufacturer</h3>
+                        <span>2020 @ Avanade</span>
+                        <p>
+                            Microsoft 365 Apps deployment to over 11,000 devices, advising on solution design, overseeing roll-out activities, and addressing compatibility issues between internal applications and Microsoft 365 Apps.
+                        </p>
+                    </div>
+
+                </section>
+            </section>
+        </div>
 
     </page>
 
