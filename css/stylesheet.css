@@ -233,6 +233,11 @@ header h2 {
 
 #certifications h3 {
     text-align: center;
+    margin-bottom: 8px;
+}
+
+.certlist div:first-child {
+    margin-top: 0;
 }
 
 .certitem a {
