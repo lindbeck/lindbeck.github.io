@@ -231,13 +231,17 @@ header h2 {
     background-color: rgb(67, 56, 80, 0.8);
 }
 
+#certifications h3 {
+    text-align: center;
+}
+
 .certitem a {
     display: flex;
     align-items: center;
     justify-content: start;
 }
 
-.certitem:not(:first-child) {
+.certitem {
     margin-top: 18px;
 }
 
