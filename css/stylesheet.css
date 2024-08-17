@@ -127,11 +127,12 @@ header #headertext {
 header h1 {
     margin-top: 60px;
     margin-bottom: 5px;
-    font-size: 2.5em;
+    font-size: 2.4em;
 }
 
 header h2 {
     margin: 0;
+    font-size: 1.5em;
 }
 
 .container {
