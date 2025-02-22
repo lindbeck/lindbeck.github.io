@@ -226,9 +226,15 @@ header h2 {
     margin-top: 15px;
 }
 
-#certifications h3 {
-    text-align: center;
-    margin-bottom: 8px;
+.certifications h3 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.certifications h3 .line {
+    opacity: 40%;
+    width: 85%;
+    margin-left: 0;
 }
 
 .certlist div:first-child {
