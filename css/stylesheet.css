@@ -155,10 +155,20 @@ header h2 {
     border-color: #041445;
 }
 
+#about {
+    width: 97%;
+    height: 16.4%;
+    margin: 0 auto;
+}
+
+#about a {
+    font-weight: bold;
+}
+
 #firstpage {
     margin: 0 auto;
     width: 100%;
-    height: 83.4%;
+    height: 67%;
 }
 
 .line{
